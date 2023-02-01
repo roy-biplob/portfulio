@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ,Arial, Helvetica, sans-serif;
+}
+.continer{
+    width: 1080px;
+    background-color: azure;
+    margin: auto;
+}
+.navber{
+    display: flex;
+}
+.lago{
+    flex-basis:55%;
+}
+.lago img{
+    width: 38px;
+    height: 25px;
+}
+.manuber ul{
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.manuber ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: darkseagreen;
+    
+}
+.manuber ul li a{
+    text-decoration: none;
+    font-size:20px;
+    padding: 20px;
+    margin: 2px;
+    background-color: darkseagreen;
+}
+.manuber ul li a:hover{
+    background-color: black;
+    color: wheat;
+}
+.row{
+    display: flex;
+}
+.col2{
+    flex-basis: 50%;
+}
+.col2 img{
+    width: 90%;
+    height: 80vh;
+    padding: 30px;
+    margin-top: 30px;
+}
+.about-sention{
+    padding: 15px;
+    margin-top: 150px;
+    flex-basis: 50%;
+}
+.about-sention h1{
+    width: 100%;
+    text-align: center;
+  
+    color: rgb(6, 163, 50);
+    font-style: italic;
+    border-bottom: 3px solid gray;
+    font-size: 80px;
+}
+.about-sention h3{
+    margin-top:5px;
+    font-size: 35px;
+ text-align: center;
+    text-transform: capitalize;
+}
+.red{
+    color: red;
+}
+.green{
+    color: rgb(9, 0, 128);
+}
+.about>h3{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(255, 196, 201);
+
+}
+.style{
+    margin-top:10px;
+    font-size: 15px;
+    color: rgb(46, 165, 165);
+   box-sizing: border-box;
+    height: 105px;
+
+    
+}
+.block{
+    text-align: center;
+    padding: 15px 0px;
+    overflow: hidden;
+    color: red;
+    
+}
+.col3{
+    flex-basis: 33.33%;
+    text-transform: capitalize;
+
+}
+.col3 h3{
+    color: green;
+    margin-bottom: 5px;
+}
+address{
+    font-size: 30px;
+    width: 1080px;
+    margin:250px  540px;
+}
+.my-skils{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgba(127, 127, 135, 0.183);
+}
+.my-skils h1{
+    color: blueviolet;
+    margin-bottom: 10px;
+    
+}
+.footer{
+    text-align: center;
+}
